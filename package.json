@@ -1,0 +1,37 @@
+{
+  "name": "@siendoricardo/enver",
+  "version": "1.1.0",
+  "description": "Pre-process your env vars in the easiest way possible.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc --project .",
+    "test": "nyc mocha --require ts-node/register src/test/**/*.test.ts"
+  },
+  "keywords": [
+    "ENV",
+    "VAR"
+  ],
+  "author": "Ricardo Rodriguez Medina",
+  "license": "ISC",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "README.md",
+    "package.json",
+    "src/test/**/*"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.0",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.27.0",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.0.0",
+    "typedoc": "^0.21.0",
+    "typescript": "^4.2.4"
+  }
+}

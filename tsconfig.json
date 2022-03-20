@@ -3,11 +3,20 @@
     "target": "es2020",
     "module": "commonjs",
     "moduleResolution": "Node",
-    "rootDir": "./src",
     "declaration": true,
     "outDir": "./lib",
+    "rootDirs": [
+      "./src",
+      "./test"
+    ],
     "esModuleInterop": true,
     "strict": true,
     "sourceMap": true
-  }
+  },
+  "include": [
+    "test/**/*.test.ts"
+  ],
+  "files": [
+    "./src/index.ts",
+  ]
 }

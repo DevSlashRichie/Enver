@@ -1,4 +1,4 @@
-import { Enver } from '..';
+import { Enver } from '../src';
 import { expect } from 'chai';
 import dotenv from 'dotenv';
 import path from 'path';
